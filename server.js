@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 const JWT_SECRET = process.env.JWT_SECRET || 'sacred-sikkim-jwt-secret-2025';
 // Add at top of server.js
 const compression = require('compression');
-const { performanceMiddleware, getPerformanceStats } = require('./middleware/performance.js');
+const { performanceMiddleware, getPerformanceStats } = require('./middleware/performance');
 
 // Add compression middleware
 
